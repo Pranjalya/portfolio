@@ -4,91 +4,6 @@
       v-show="isCurrentItem == true"
       class="flex flex-col relative bg-grey-lightest items-center justify-center verysmallfix graph flex-no-shrink mauto-0 h-auto smp:h-auto sml:h-auto md:h-auto lg:h-auto xl:h-auto xxl:h-auto w-full smp:w-full sml:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 xxl:w-3/5 p-6"
     >
-      <table>
-        <tr>
-          <td colspan="2">
-            <span
-              id="skill-0"
-              class="absolute label pin-management text-right max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
-              @mouseover="setSkill(0)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Management</span>
-          </td>
-          <td colspan="2">
-            <span
-              id="skill-1"
-              class="absolute label pin-dl text-right min-w-0 max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
-              @mouseover="setSkill(1)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Deep Learning</span>
-          </td>
-          <td colspan="2">
-            <span
-              id="skill-2"
-              class="absolute label pin-digital text-right max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
-              @mouseover="setSkill(2)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Digital Marketing</span>
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td colspan="2">
-            <span
-              id="skill-3"
-              class="absolute label pin-webdev text-right max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
-              @mouseover="setSkill(3)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Web Development</span>
-          </td>
-          <td colspan="2">
-            <span
-              id="skill-4"
-              class="absolute label pin-ml text-left max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
-              @mouseover="setSkill(4)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Machine Learning</span>
-          </td>
-          <td colspan="2">
-            <span
-              id="skill-5"
-              class="absolute label pin-data text-left max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
-              @mouseover="setSkill(5)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >Data Engineering</span>
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td colspan="3">
-            <span
-              id="skill-6"
-              class="absolute label pin-ux text-left max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
-              @mouseover="setSkill(6)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >UX Design</span>
-          </td>
-          <td></td>
-          <td colspan="3">
-            <span
-              id="skill-7"
-              class="absolute label pin-dev text-left max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
-              @mouseover="setSkill(7)"
-              @mouseleave="setSkill(null)"
-              style="padding: 0px 3px;"
-            >DevOps</span>
-          </td>
-        </tr>
-      </table>
-      <br />
-      <br />
       <div
         class="relative font-semibold text-grey-dark flex text-sm smp:text-sm sml:text-sm md:text-sm lg:text-base xl:text-base xxl:text-base m-10 smp:m-10 sml:m-10 md:m-13 lg:m-13 xl:m-13 xxl:m-13"
       >
@@ -196,16 +111,81 @@
             @mouseleave="setSkill(null)"
           />
           <g opacity=".2">
-            <path class="st4" d="M87.5 17.3H46.4L17.3 46.4v41.1l29.1 29.1h41.1l29-29.1V46.4z" />
-            <path class="st4" d="M81.8 31.4H52.5L31.7 52.2v29.3l20.8 20.8h29.3l20.8-20.8V52.2z" />
+            <path
+              class="st4"
+              d="M87.5 17.3H46.4L17.3 46.4v41.1l29.1 29.1h41.1l29-29.1V46.4z"
+            />
+            <path
+              class="st4"
+              d="M81.8 31.4H52.5L31.7 52.2v29.3l20.8 20.8h29.3l20.8-20.8V52.2z"
+            />
             <path
               class="st4"
               d="M76 45.6H58.3L45.9 58v17.7l12.4 12.4H76l12.4-12.4V58zM93.3 3.2L40.5 130.5m52.8 0L40.5 3.2m-37.3 90l127.5-52.7m-127.5 0l127.5 52.7"
             />
             <circle cx="66.9" cy="66.7" r="1.1" fill="#f3f7f9" />
-            <path class="st4" d="M70.1 59.8h-5.9l-4.1 4.1v5.9l4.1 4.1h5.9l4.1-4.1v-5.9z" />
+            <path
+              class="st4"
+              d="M70.1 59.8h-5.9l-4.1 4.1v5.9l4.1 4.1h5.9l4.1-4.1v-5.9z"
+            />
           </g>
         </svg>
+        <span
+          id="skill-0"
+          class="absolute label pin-management text-right max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
+          @mouseover="setSkill(0)"
+          @mouseleave="setSkill(null)"
+          >Management</span
+        >
+        <span
+          id="skill-1"
+          class="absolute label pin-dl text-right min-w-0 max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
+          @mouseover="setSkill(1)"
+          @mouseleave="setSkill(null)"
+          >Deep Learning</span
+        >
+        <span
+          id="skill-2"
+          class="absolute label pin-digital text-right max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
+          @mouseover="setSkill(2)"
+          @mouseleave="setSkill(null)"
+          >Digital Marketing</span
+        >
+        <span
+          id="skill-3"
+          class="absolute label pin-webdev text-right max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
+          @mouseover="setSkill(3)"
+          @mouseleave="setSkill(null)"
+          >Web Development</span
+        >
+        <span
+          id="skill-4"
+          class="absolute label pin-ml text-left max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
+          @mouseover="setSkill(4)"
+          @mouseleave="setSkill(null)"
+          >Machine Learning</span
+        >
+        <span
+          id="skill-5"
+          class="absolute label pin-data text-left max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
+          @mouseover="setSkill(5)"
+          @mouseleave="setSkill(null)"
+          >Data Engineering</span
+        >
+        <span
+          id="skill-6"
+          class="absolute label pin-ux text-left max-w-60px sml:max-w-80px smp:max-w-80px md:max-w-80px lg:max-w-100px xl:max-w-100px xxl:max-w-100px"
+          @mouseover="setSkill(6)"
+          @mouseleave="setSkill(null)"
+          >UX Design</span
+        >
+        <span
+          id="skill-7"
+          class="absolute label pin-dev text-left max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
+          @mouseover="setSkill(7)"
+          @mouseleave="setSkill(null)"
+          >DevOps</span
+        >
       </div>
       <div
         class="w-full h-30px items-end justify-center flex text-center mb-2 smp:mb-2 sml:mb-2 md:mb-0 lg:mb-0 xl:mb-0 xxl:mb-0 sml:mt-4"
@@ -214,7 +194,8 @@
           <span
             v-if="skillItem != null"
             class="skill-details text-xs smp:text-xs sml:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm text-blue-dark"
-          >{{ skillDetail[skillItem] }}</span>
+            >{{ skillDetail[skillItem] }}</span
+          >
         </transition>
       </div>
     </div>
@@ -236,7 +217,7 @@ export default {
         "Data Cleaning, Preprocessing, Classification, Regression",
         "Collection, Treatment, Analysis",
         "Wireframe, User interface, Engagement, Survey, A/B Testing",
-        "CI/CD, Agile, SCRUM, Testing"
+        "CI/CD, Agile, SCRUM, Testing",
       ]
     };
   },
@@ -319,15 +300,8 @@ $bg-about-me: map-get($colors, dark);
   stroke-miterlimit: 10;
 }
 
-.lines {
-  display: flexbox;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-td {
-  text-align: center;
-  vertical-align: middle;
+#skill-0 {
+  height: 50px;
+  width: 60px;
 }
 </style>

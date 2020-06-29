@@ -85,25 +85,25 @@ $olive: #3D9970;
   transform: translate(0%, 0%);
 }
 
-.pin-gestion {
+.pin-dl {
   left: -80px;
   top: 30px;
   transform: translate(0%, 0%);
 }
 
-.pin-conduite {
+.pin-digital {
   left: -80px;
   top: 110px;
   transform: translate(0%, 0%);
 }
 
-.pin-consulting {
+.pin-webdev {
   left: -30px;
   bottom: -10px;
   transform: translate(0%, 100%);
 }
 
-.pin-strategie {
+.pin-ml {
   right: 45px;
   bottom: -10px;
   transform: translate(100%, 100%);
@@ -130,47 +130,47 @@ $olive: #3D9970;
 
 /** SMP 150px **/
 
-@screen smp {
+@media smp {
   .pin-management {
-    left: -35px;
-    top: -30px;
+    left: 0px;
+    top: 0px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen smp {
-  .pin-gestion {
+@media smp {
+  .pin-dl {
     left: -120px;
     top: 30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen smp {
-  .pin-conduite {
+@media smp {
+  .pin-digital {
     left: -120px;
     top: 110px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen smp {
-  .pin-consulting {
+@media smp {
+  .pin-webdev {
     left: -35px;
     bottom: -10px;
     transform: translate(0%, 100%);
   }
 }
 
-@screen smp {
-  .pin-strategie {
+@media smp {
+  .pin-ml {
     right: 45px;
     bottom: -10px;
     transform: translate(100%, 100%);
   }
 }
 
-@screen smp {
+@media smp {
   .pin-data {
     right: -25px;
     top: 110px;
@@ -178,7 +178,7 @@ $olive: #3D9970;
   }
 }
 
-@screen smp {
+@media smp {
   .pin-ux {
     right: -25px;
     top: 30px;
@@ -186,7 +186,7 @@ $olive: #3D9970;
   }
 }
 
-@screen smp {
+@media smp {
   .pin-dev {
     right: 45px;
     top: -30px;
@@ -196,7 +196,7 @@ $olive: #3D9970;
 
 
 /** SML 250px **/
-@screen sml {
+@media sml {
   .pin-management {
     left: -20px;
     top: -50px;
@@ -204,39 +204,39 @@ $olive: #3D9970;
   }
 }
 
-@screen sml {
-  .pin-gestion {
+@media sml {
+  .pin-dl {
     left: -130px;
     top: 65px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen sml {
-  .pin-conduite {
+@media sml {
+  .pin-digital {
     left: -145px;
     top: 175px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen sml {
-  .pin-consulting {
+@media sml {
+  .pin-webdev {
     left: -20px;
     bottom: -30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen sml {
-  .pin-strategie {
+@media sml {
+  .pin-ml {
     right: 80px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
 }
 
-@screen sml {
+@media sml {
   .pin-data {
     right: -30px;
     top: 175px;
@@ -244,7 +244,7 @@ $olive: #3D9970;
   }
 }
 
-@screen sml {
+@media sml {
   .pin-ux {
     right: -30px;
     top: 65px;
@@ -252,7 +252,7 @@ $olive: #3D9970;
   }
 }
 
-@screen sml {
+@media sml {
   .pin-dev {
     right: 80px;
     top: -50px;
@@ -260,10 +260,9 @@ $olive: #3D9970;
   }
 }
 
-
 /** MD 200px **/
 
-@screen md {
+@media md {
   .pin-management {
     left: -20px;
     top: -50px;
@@ -271,39 +270,39 @@ $olive: #3D9970;
   }
 }
 
-@screen md {
-  .pin-gestion {
+@media md {
+  .pin-dl {
     left: -130px;
     top: 55px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen md {
-  .pin-conduite {
+@media md {
+  .pin-digital {
     left: -130px;
     top: 145px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen md {
-  .pin-consulting {
+@media md {
+  .pin-webdev {
     left: -20px;
     bottom: -30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen md {
-  .pin-strategie {
+@media md {
+  .pin-ml {
     right: 60px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
 }
 
-@screen md {
+@media md {
   .pin-data {
     right: -30px;
     top: 145px;
@@ -311,7 +310,7 @@ $olive: #3D9970;
   }
 }
 
-@screen md {
+@media md {
   .pin-ux {
     right: -30px;
     top: 55px;
@@ -319,7 +318,7 @@ $olive: #3D9970;
   }
 }
 
-@screen md {
+@media md {
   .pin-dev {
     right: 60px;
     top: -50px;
@@ -330,7 +329,7 @@ $olive: #3D9970;
 
 /** LG 250px **/
 
-@screen lg {
+@media lg {
   .pin-management {
     left: -20px;
     top: -50px;
@@ -338,39 +337,39 @@ $olive: #3D9970;
   }
 }
 
-@screen lg {
-  .pin-gestion {
+@media lg {
+  .pin-dl {
     left: -130px;
     top: 65px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen lg {
-  .pin-conduite {
+@media lg {
+  .pin-digital {
     left: -145px;
     top: 175px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen lg {
-  .pin-consulting {
+@media lg {
+  .pin-webdev {
     left: -20px;
     bottom: -30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen lg {
-  .pin-strategie {
+@media lg {
+  .pin-ml {
     right: 80px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
 }
 
-@screen lg {
+@media lg {
   .pin-data {
     right: -30px;
     top: 175px;
@@ -378,7 +377,7 @@ $olive: #3D9970;
   }
 }
 
-@screen lg {
+@media lg {
   .pin-ux {
     right: -30px;
     top: 65px;
@@ -386,7 +385,7 @@ $olive: #3D9970;
   }
 }
 
-@screen lg {
+@media lg {
   .pin-dev {
     right: 80px;
     top: -50px;
@@ -397,7 +396,7 @@ $olive: #3D9970;
 
 /** XL 350px **/
 
-@screen xl {
+@media xl {
   .pin-management {
     left: 0;
     top: -50px;
@@ -405,39 +404,39 @@ $olive: #3D9970;
   }
 }
 
-@screen xl {
-  .pin-gestion {
+@media xl {
+  .pin-dl {
     left: -145px;
     top: 95px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xl {
-  .pin-conduite {
+@media xl {
+  .pin-digital {
     left: -145px;
     top: 235px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xl {
-  .pin-consulting {
+@media xl {
+  .pin-webdev {
     left: 0;
     bottom: -30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xl {
-  .pin-strategie {
+@media xl {
+  .pin-ml {
     right: 100px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
 }
 
-@screen xl {
+@media xl {
   .pin-data {
     right: -30px;
     top: 235px;
@@ -445,7 +444,7 @@ $olive: #3D9970;
   }
 }
 
-@screen xl {
+@media xl {
   .pin-ux {
     right: -30px;
     top: 95px;
@@ -453,7 +452,7 @@ $olive: #3D9970;
   }
 }
 
-@screen xl {
+@media xl {
   .pin-dev {
     right: 100px;
     top: -50px;
@@ -464,7 +463,7 @@ $olive: #3D9970;
 
 /** XXL 400px **/
 
-@screen xxl {
+@media xxl {
   .pin-management {
     left: 15px;
     top: -50px;
@@ -472,39 +471,39 @@ $olive: #3D9970;
   }
 }
 
-@screen xxl {
-  .pin-gestion {
+@media xxl {
+  .pin-dl {
     left: -145px;
     top: 110px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xxl {
-  .pin-conduite {
+@media xxl {
+  .pin-digital {
     left: -145px;
     top: 265px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xxl {
-  .pin-consulting {
+@media xxl {
+  .pin-webdev {
     left: 15px;
     bottom: -30px;
     transform: translate(0%, 0%);
   }
 }
 
-@screen xxl {
-  .pin-strategie {
+@media xxl {
+  .pin-ml {
     right: 120px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
 }
 
-@screen xxl {
+@media xxl {
   .pin-data {
     right: -30px;
     top: 265px;
@@ -512,7 +511,7 @@ $olive: #3D9970;
   }
 }
 
-@screen xxl {
+@media xxl {
   .pin-ux {
     right: -30px;
     top: 110px;
@@ -520,7 +519,7 @@ $olive: #3D9970;
   }
 }
 
-@screen xxl {
+@media xxl {
   .pin-dev {
     right: 120px;
     top: -50px;
@@ -740,9 +739,3 @@ $olive: #3D9970;
   margin-left: 9px;
   text-indent: -9px;
 }
-// .transition-in-progress, .expand[aria-expanded="true"] {
-//   margin-top: 0.8rem;
-//   & > p + p {
-//     margin-top: 0.4rem;
-//   }
-// }

@@ -529,7 +529,7 @@
                     <div class="content">
                       <ul style="list-style-type:disc">
                         <li>Building Web presence</li>
-                        <li>Plannig online business strategy</li>
+                        <li>Planning online business strategy</li>
                         <li>Search Engine Optimisation</li>
                         <li>Social Media Marketing</li>
                         <li>Online Advertising and Campaigns</li>
