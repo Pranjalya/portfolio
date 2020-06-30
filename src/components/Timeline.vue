@@ -98,7 +98,7 @@
         >
           <img
             class="w-20px h-20px"
-            src="../assets/img/tie.svg"
+            src="../assets/img/cap-black.svg"
             alt="Expérience professionnelle"
           />
         </div>
