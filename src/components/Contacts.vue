@@ -98,7 +98,7 @@ export default {
         this.name = this.email = this.message = "";
       }, 100);
     }
-  },
+  }
 };
 </script>
 

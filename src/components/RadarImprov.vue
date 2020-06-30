@@ -217,7 +217,7 @@ export default {
         "Data Cleaning, Preprocessing, Classification, Regression",
         "Collection, Treatment, Analysis",
         "Wireframe, User interface, Engagement, Survey, A/B Testing",
-        "CI/CD, Agile, SCRUM, Testing",
+        "CI/CD, Agile, SCRUM, Testing"
       ]
     };
   },

@@ -2,9 +2,7 @@
   <transition name="fade" tag="div" class="wrapper">
     <div class="wrapper" v-if="isLoaded" key="app">
       <FrontPage :user="user" />
-      <AboutMe
-        :user="user"
-      />
+      <AboutMe :user="user" />
       <Experience />
       <Portfolio />
       <Contacts />
@@ -48,17 +46,19 @@ export default {
   methods: {
     getName() {
       return this.user;
-    },
+    }
+  },
+
+  mounted() {
+    console.log(process.env.BASE_URL);
   },
 
   created() {
     document.body.classList.add("loading");
-    Promise.all([this.getName()]).then(
-      () => {
-        this.isLoaded = true;
-        this.$nextTick(() => document.body.classList.remove("loading"));
-      }
-    );
+    Promise.all([this.getName()]).then(() => {
+      this.isLoaded = true;
+      this.$nextTick(() => document.body.classList.remove("loading"));
+    });
   }
 };
 </script>

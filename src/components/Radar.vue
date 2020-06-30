@@ -13,7 +13,8 @@
               @mouseover="setSkill(0)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Management</span>
+              >Management</span
+            >
           </td>
           <td colspan="2">
             <span
@@ -22,7 +23,8 @@
               @mouseover="setSkill(1)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Deep Learning</span>
+              >Deep Learning</span
+            >
           </td>
           <td colspan="2">
             <span
@@ -31,7 +33,8 @@
               @mouseover="setSkill(2)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Digital Marketing</span>
+              >Digital Marketing</span
+            >
           </td>
         </tr>
         <br />
@@ -43,7 +46,8 @@
               @mouseover="setSkill(3)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Web Development</span>
+              >Web Development</span
+            >
           </td>
           <td colspan="2">
             <span
@@ -52,7 +56,8 @@
               @mouseover="setSkill(4)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Machine Learning</span>
+              >Machine Learning</span
+            >
           </td>
           <td colspan="2">
             <span
@@ -61,7 +66,8 @@
               @mouseover="setSkill(5)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >Data Engineering</span>
+              >Data Engineering</span
+            >
           </td>
         </tr>
         <br />
@@ -73,7 +79,8 @@
               @mouseover="setSkill(6)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >UX Design</span>
+              >UX Design</span
+            >
           </td>
           <td></td>
           <td colspan="3">
@@ -83,10 +90,12 @@
               @mouseover="setSkill(7)"
               @mouseleave="setSkill(null)"
               style="padding: 0px 3px;"
-            >DevOps</span>
+              >DevOps</span
+            >
           </td>
         </tr>
       </table>
+
       <br />
       <br />
       <div
@@ -196,14 +205,23 @@
             @mouseleave="setSkill(null)"
           />
           <g opacity=".2">
-            <path class="st4" d="M87.5 17.3H46.4L17.3 46.4v41.1l29.1 29.1h41.1l29-29.1V46.4z" />
-            <path class="st4" d="M81.8 31.4H52.5L31.7 52.2v29.3l20.8 20.8h29.3l20.8-20.8V52.2z" />
+            <path
+              class="st4"
+              d="M87.5 17.3H46.4L17.3 46.4v41.1l29.1 29.1h41.1l29-29.1V46.4z"
+            />
+            <path
+              class="st4"
+              d="M81.8 31.4H52.5L31.7 52.2v29.3l20.8 20.8h29.3l20.8-20.8V52.2z"
+            />
             <path
               class="st4"
               d="M76 45.6H58.3L45.9 58v17.7l12.4 12.4H76l12.4-12.4V58zM93.3 3.2L40.5 130.5m52.8 0L40.5 3.2m-37.3 90l127.5-52.7m-127.5 0l127.5 52.7"
             />
             <circle cx="66.9" cy="66.7" r="1.1" fill="#f3f7f9" />
-            <path class="st4" d="M70.1 59.8h-5.9l-4.1 4.1v5.9l4.1 4.1h5.9l4.1-4.1v-5.9z" />
+            <path
+              class="st4"
+              d="M70.1 59.8h-5.9l-4.1 4.1v5.9l4.1 4.1h5.9l4.1-4.1v-5.9z"
+            />
           </g>
         </svg>
       </div>
@@ -214,7 +232,8 @@
           <span
             v-if="skillItem != null"
             class="skill-details text-xs smp:text-xs sml:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm text-blue-dark"
-          >{{ skillDetail[skillItem] }}</span>
+            >{{ skillDetail[skillItem] }}</span
+          >
         </transition>
       </div>
     </div>
@@ -325,9 +344,13 @@ $bg-about-me: map-get($colors, dark);
   align-items: center;
 }
 
-
 td {
   text-align: center;
   vertical-align: middle;
+}
+
+span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 </style>

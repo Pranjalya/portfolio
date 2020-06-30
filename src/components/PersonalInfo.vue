@@ -31,14 +31,15 @@
     </div>
     <br />
     <div class="formatting">
-      <div class="info"><strong>Programming Languages:</strong></div> 
-      <div class="innerformat"> Python, C++, JavaScript, C, Go, Bash</div>
+      <div class="info"><strong>Programming Languages:</strong></div>
+      <div class="innerformat">Python, C++, JavaScript, C, Go, Bash</div>
     </div>
     <br />
     <div class="formatting">
       <div class="info"><strong>Areas of Interest:</strong></div>
       <div class="innerformat">
-        Astronomy, Cricket, Tabla, Astrophysics, Cinematoraphy, Cosmology, Poetry
+        Astronomy, Cricket, Tabla, Astrophysics, Cinematoraphy, Cosmology,
+        Poetry
       </div>
     </div>
     <br />

@@ -137,7 +137,7 @@ export default {
           site_url:
             "https://play.google.com/store/apps/details?id=io.kaissa.millennials&hl=en_IN",
           media_url:
-            "https://lh3.googleusercontent.com/2hXvFqptcM5u8F1LPF9sAqHaIfAZPwAAxdqi-lACdEWMi-arr5m9srVg_zX4_548inoS=s180-rw",
+            "https://drive.google.com/uc?id=1SpDi_9jTdQyt_jRhWEY1n5G2XwrUduhy",
           tags: ["project"]
         },
         {

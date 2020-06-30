@@ -31,7 +31,7 @@ export default {
     Photo,
     PersonalInfo,
     Radar
-  },
+  }
 };
 </script>
 

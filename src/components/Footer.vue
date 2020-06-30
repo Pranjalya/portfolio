@@ -1,7 +1,9 @@
 <template>
   <footer class="footer">
     <div>&copy; 2020 Pranjalya Tiwari</div>
-    <div>Cover Image : Hubble Ultra Deep Field, courtesy of Hubble Telescope</div>
+    <div>
+      Cover Image : Hubble Ultra Deep Field, courtesy of Hubble Telescope
+    </div>
     <Social />
   </footer>
 </template>
