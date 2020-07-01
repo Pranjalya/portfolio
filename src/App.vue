@@ -49,10 +49,6 @@ export default {
     }
   },
 
-  mounted() {
-    console.log(process.env.BASE_URL);
-  },
-
   created() {
     document.body.classList.add("loading");
     Promise.all([this.getName()]).then(() => {
