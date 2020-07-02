@@ -22,5 +22,5 @@ pnpm-debug.log*
 *.sw?
 
 # Deployment files
-delpoy.sh
+deploy.sh
 .htaccess
