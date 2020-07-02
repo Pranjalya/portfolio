@@ -85,7 +85,8 @@ export default {
         { id: 5, text: "Docker", src: "docker.png" },
         { id: 6, text: "MySQL", src: "mysql.jpeg" },
         { id: 7, text: "Scikit Learn", src: "sklearn.png" },
-        { id: 8, text: "CouchDB", src: "couchdb-logo1.png" }
+        { id: 8, text: "CouchDB", src: "couchdb-logo1.png" },
+        { id: 9, text: "CircleCI", src: "circleci.png" }
       ],
       posts: [
         {
@@ -183,9 +184,16 @@ export default {
 <style scoped lang="scss">
 @import "@/styles/variables.scss";
 
+.carousel-3d-container {
+  .carousel-3d-slide {
+    height: 180px;
+    width: 250px;
+  }
+}
+
 figure {
-  padding: 0;
-  margin: 0;
+  padding: 3px;
+  margin: 1px;
 }
 
 figure figcaption {
@@ -274,8 +282,8 @@ $btn: map-get($colors, secondary) !default;
 }
 
 .portfolio-item {
-  width: 300px;
-  max-height: 250px;
+  width: 20%;
+  max-height: 16%;
   overflow: hidden;
   margin-bottom: 20px;
 
