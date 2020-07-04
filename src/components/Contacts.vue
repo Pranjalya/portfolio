@@ -18,8 +18,7 @@
         <div class="col-md-6 col-sm-6">
           <form
             @submit="formSubmited"
-            action="https://formsubmit.io/send/d664db61-ca13-45c7-a710-35f25ee1050a"
-            target="_blank"
+            action="https://mailthis.to/pranjalyawarrior@gmail.com"
             method="POST"
           >
             <label class="form-group">
