@@ -56,7 +56,7 @@
       <carousel-3d :autoplay="true" :autoplay-timeout="1000" :display="7">
         <slide v-for="(slide, i) in slides" :key="i" :index="slide.id">
           <figure>
-            <img :src="'img/icons/' + slide.src" />
+            <img :src="'img/icons/' + slide.src" :alt="slide.txt" />
             <figcaption>
               <h2>{{ slide.text }}</h2>
             </figcaption>

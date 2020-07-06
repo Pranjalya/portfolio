@@ -20,5 +20,6 @@ echo "Done!"
 ENDSSH
 
 echo "Deploying to the server..."
-scp -r dist/* foura9t3@208.91.198.88:/home/foura9t3/public_html/pranjalyatiwari.kaissa.in/
+scp -rp dist/* foura9t3@208.91.198.88:/home/foura9t3/public_html/pranjalyatiwari.kaissa.in/
+scp dist/.htaccess foura9t3@208.91.198.88:/home/foura9t3/public_html/pranjalyatiwari.kaissa.in/
 echo "Work finished"

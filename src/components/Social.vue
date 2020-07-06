@@ -2,8 +2,8 @@
   <div class="social-wrap">
     <ul>
       <li v-for="social in socialMedias" v-bind:key="social.index">
-        <a :href="social.link" target="_blank">
-          <i :class="social.icon"></i>
+        <a :href="social.link" target="_blank" aria-label="icons">
+          <i :class="social.icon"> </i>
         </a>
       </li>
     </ul>

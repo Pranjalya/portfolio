@@ -1,5 +1,5 @@
 <template>
-  <button class="btn-menu">
+  <button class="btn-menu" aria-label="button">
     <span class="sandwich" :class="{ active }">
       <span class="sw-topper"></span>
       <span class="sw-bottom"></span>

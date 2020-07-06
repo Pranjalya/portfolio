@@ -13,6 +13,8 @@ import {
   MdTooltip
 } from "vue-material/dist/components";
 
+import "./registerServiceWorker";
+
 Vue.use(MdCard);
 Vue.use(MdButton);
 Vue.use(MdRipple);

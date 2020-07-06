@@ -50,7 +50,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -126,7 +126,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -197,7 +197,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -274,7 +274,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -335,7 +335,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -402,7 +402,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -461,7 +461,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -518,7 +518,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
@@ -578,7 +578,7 @@
               <md-card-expand>
                 <md-card-actions md-alignment="right">
                   <md-card-expand-trigger>
-                    <md-button>MORE</md-button>
+                    <md-button aria-label="More">MORE</md-button>
                   </md-card-expand-trigger>
                 </md-card-actions>
 
