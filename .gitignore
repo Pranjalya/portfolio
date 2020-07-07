@@ -24,3 +24,4 @@ pnpm-debug.log*
 # Deployment files
 deploy.sh
 .htaccess
+tenous_files/deploy.sh
