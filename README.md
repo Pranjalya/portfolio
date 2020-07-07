@@ -1,29 +1,8 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+A personal portfolio site built using Vue.js.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can find the portfolio here : https://pranjalyatiwari.kaissa.in
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![lighthouse](https://github.com/Pranjalya/portfolio/blob/master/tenous_files/lighthouse.png)
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
