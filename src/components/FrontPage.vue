@@ -40,7 +40,7 @@ $text-nav-bar: map-get($colors, light) !default;
 }
 
 .parallax {
-  background-image: url("../assets/img/120882.jpg");
+  background-image: url("../assets/img/120882.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

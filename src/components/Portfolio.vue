@@ -39,7 +39,7 @@
           v-for="post in filteredPosts"
           :key="post.id"
         >
-          <img :src="post.media_url" :alt="post.title" />
+          <img :src="post.media_url" alt="image" />
           <div class="portfolio-link">
             <a :href="post.site_url" class="popup_content" target="_blank"
               >See</a
@@ -56,7 +56,7 @@
       <carousel-3d :autoplay="true" :autoplay-timeout="1000" :display="7">
         <slide v-for="(slide, i) in slides" :key="i" :index="slide.id">
           <figure>
-            <img :src="'img/icons/' + slide.src" :alt="slide.txt" />
+            <img :src="'img/icons/' + slide.src" alt="image" />
             <figcaption>
               <h2>{{ slide.text }}</h2>
             </figcaption>
@@ -82,9 +82,9 @@ export default {
         { id: 2, text: "Vue.js", src: "vue.png" },
         { id: 3, text: "Cloudant", src: "cloudant.png" },
         { id: 4, text: "MongoDB", src: "mongodb.png" },
-        { id: 5, text: "Docker", src: "docker.png" },
+        { id: 5, text: "Docker", src: "docker.webp" },
         { id: 6, text: "MySQL", src: "mysql.jpeg" },
-        { id: 7, text: "Scikit Learn", src: "sklearn.png" },
+        { id: 7, text: "Scikit Learn", src: "sklearn.webp" },
         { id: 8, text: "CouchDB", src: "couchdb-logo1.png" },
         { id: 9, text: "CircleCI", src: "circleci.png" }
       ],
