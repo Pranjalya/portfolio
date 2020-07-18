@@ -26,6 +26,7 @@ jobs:
       run: |
         npm install
         sed -i '8 i $quoteAnimationNames: false;' ./node_modules/vue2-animate/src/sass/make-transitions.scss
+        npm run lint --fix
         npm run build
         echo "Updating some files"
         rm ./dist/manifest.json
