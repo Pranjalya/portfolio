@@ -87,7 +87,7 @@ export default {
         { id: 7, text: "Scikit Learn", src: "sklearn.webp" },
         { id: 8, text: "CouchDB", src: "couchdb-logo1.png" },
         { id: 9, text: "CircleCI", src: "circleci.png" },
-        { id: 10, text: "Google CLoud Platform ", src: "gcp.png" }
+        { id: 10, text: "Google Cloud Platform ", src: "gcp.png" }
       ],
       posts: [
         {
