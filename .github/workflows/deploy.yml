@@ -35,6 +35,6 @@ jobs:
         cp ./tenous_files/manifest.json ./dist/
         cp ./sitemap.xml ./dist/
         echo "Deploying to the server..."
-        scp -rp dist/* {{ secrets.DEPLOY_KEY }}
-        scp dist/.htaccess {{ secrets.DEPLOY_KEY }}
+        scp -rp dist/* ${{ secrets.DEPLOY_KEY }}
+        scp dist/.htaccess ${{ secrets.DEPLOY_KEY }}
         echo "Work finished"
