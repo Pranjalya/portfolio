@@ -1,8 +1,8 @@
 # Portfolio
 
-![](https://github.com/actions/portfolio/workflows/.github/workflows/integration.yml/badge.svg)
-![](https://github.com/actions/portfolio/workflows/.github/workflows/deploy.yml/badge.svg)
+[![Integration Status](https://github.com/actions/portfolio/workflows/.github/workflows/integration.yml/badge.svg)](https://github.com/actions/portfolio/workflows/.github/workflows/integration.yml/badge.svg)
 
+[![Integration Status](https://github.com/actions/portfolio/workflows/.github/workflows/integration.yml/badge.svg)](https://github.com/actions/portfolio/workflows/.github/workflows/integration.yml/badge.svg)
 
 A personal portfolio site built using Vue.js.
 
