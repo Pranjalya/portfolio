@@ -10,7 +10,7 @@
             :class="{ active: isFiltered('all') }"
             @click="filter('all')"
           >
-            All work
+            All works
           </li>
           <li
             class="filter"
