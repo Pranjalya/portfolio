@@ -1,7 +1,6 @@
 # Portfolio
 
 [![Integration Status](https://github.com/Pranjalya/portfolio/workflows/Continous%20Integration%20for%20Portfolio/badge.svg)](https://github.com/Pranjalya/portfolio/workflows/Continous%20Integration%20for%20Portfolio/badge.svg)
-[![Deployment Status](https://github.com/Pranjalya/portfolio/workflows/Deploying%20the%20file/badge.svg)](https://github.com/Pranjalya/portfolio/workflows/Deploying%20the%20file/badge.svg)
 
 A personal portfolio site built using Vue.js.
 
