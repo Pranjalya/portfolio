@@ -3,7 +3,7 @@
 
 name: Continous Integration for Portfolio
 
-on: [pull_request]
+on: [push]
 
 jobs:
   build:
