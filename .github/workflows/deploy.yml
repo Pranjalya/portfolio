@@ -27,10 +27,10 @@ jobs:
         npm run build
         echo "Updating some files"
         rm ./dist/manifest.json
-        cp ./tenous_files/404.html dist/
-        cp ./tenous_files/.htaccess dist/
-        cp ./tenous_files/manifest.json dist/
-        cp ./sitemap.xml dist/
+        cp ./tenous_files/404.html ./dist/
+        cp ./tenous_files/.htaccess ./dist/
+        cp ./tenous_files/manifest.json ./dist/
+        cp ./sitemap.xml ./dist/
         echo "Deploying to the server..."
         scp -rp dist/* {{ secrets.DEPLOY_KEY }}
         scp dist/.htaccess {{ secrets.DEPLOY_KEY }}
