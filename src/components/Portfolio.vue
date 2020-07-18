@@ -86,7 +86,8 @@ export default {
         { id: 6, text: "MySQL", src: "mysql.jpeg" },
         { id: 7, text: "Scikit Learn", src: "sklearn.webp" },
         { id: 8, text: "CouchDB", src: "couchdb-logo1.png" },
-        { id: 9, text: "CircleCI", src: "circleci.png" }
+        { id: 9, text: "CircleCI", src: "circleci.png" },
+        { id: 10, text: "Google CLoud Platform ", src: "gcp.png" }
       ],
       posts: [
         {

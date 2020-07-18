@@ -38,7 +38,8 @@ export default {
     categories: {},
     user: {
       name: "PRANJALYA TIWARI",
-      description: "Deep Learning, Data Engineering, Full Stack Development"
+      description:
+        "Deep Learning, Data Engineering, Full Stack Development, Open Source Contribution"
     },
     posts: {}
   }),
