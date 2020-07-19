@@ -29,6 +29,10 @@ export default {
           link: "https://www.facebook.com/pranjalya.tiwari"
         },
         {
+          icon: "icon-twitter",
+          link: "https://twitter.com/PranjalyaQuasar"
+        },
+        {
           icon: "icon-maxcdn",
           link: "https://www.medium.com/@pranjalyatiwari"
         },
