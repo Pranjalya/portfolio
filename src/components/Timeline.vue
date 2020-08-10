@@ -34,7 +34,7 @@
               <md-card-header>
                 <div class="md-title">Data-Driven Astronomy</div>
                 <div class="md-subhead">Coursera, University of Sydney</div>
-                <div class="md-subhead">June 21, 2020 - Present</div>
+                <div class="md-subhead">June 21, 2020 - August 3, 2020</div>
               </md-card-header>
 
               <md-card-content>
@@ -321,7 +321,7 @@
                 <div class="md-subhead">
                   ML Engineer, Hybrid Application Developer
                 </div>
-                <div class="md-subhead">September 2020 - Present</div>
+                <div class="md-subhead">September 2019 - Present</div>
               </md-card-header>
 
               <md-card-content>
@@ -387,7 +387,7 @@
               <md-card-header>
                 <div class="md-title">Deep Learning Specialization</div>
                 <div class="md-subhead">Coursera, Deeplearning.ai</div>
-                <div class="md-subhead">May 2020 - August 2020</div>
+                <div class="md-subhead">May 2019 - August 2019</div>
               </md-card-header>
 
               <md-card-content>
