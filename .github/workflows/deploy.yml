@@ -1,0 +1,26 @@
+# Deplyment workflow
+
+name: Deploy to GitHub pages
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 12.x ]
+
+    steps:     
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Run deploy script
+        run: |
+          git config user.name "Pranjalya" && git config user.email "pranjalyawarrior@gmail.com"
+          npm run deploy
