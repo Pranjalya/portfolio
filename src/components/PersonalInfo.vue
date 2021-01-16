@@ -51,7 +51,7 @@
       </div>
       <div class="innerformat">
         Astronomy, Cricket, Tabla, Astrophysics, Cinematoraphy, Cosmology,
-        Poetry, Open Source
+        Poetry, Open Source, Chess
       </div>
     </div>
     <br />
