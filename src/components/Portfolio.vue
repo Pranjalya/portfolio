@@ -87,7 +87,8 @@ export default {
         { id: 7, text: "Scikit Learn", src: "sklearn.webp" },
         { id: 8, text: "CouchDB", src: "couchdb-logo1.png" },
         { id: 9, text: "CircleCI", src: "circleci.png" },
-        { id: 10, text: "Google Cloud Platform ", src: "gcp.png" }
+        { id: 10, text: "Google Cloud Platform ", src: "gcp.png" },
+        { id: 11, text: "Golang", src: "go.png" }
       ],
       posts: [
         {
@@ -150,6 +151,15 @@ export default {
           media_url:
             "https://drive.google.com/uc?id=18v_DQkdu5U5SyuUs0bY85UoPURttdXjB",
           tags: ["blog"]
+        },
+        {
+          title:
+            "Better Neural Network Weight Initializations with Reinforcement Learning",
+          id: "8",
+          site_url: "https://github.com/Pranjalya/LearningInitializations",
+          media_url:
+            "https://drive.google.com/uc?id=10KjDqaPWeYqDVeHlL9LJ3VoE3mHIMu4c",
+          tags: ["project"]
         }
       ]
     };
