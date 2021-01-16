@@ -20,9 +20,6 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v2
 
-      - name: Clean install dependencies
-        run: npm ci
-
       - name: Run deploy script
         run: |
           git config user.name "Pranjalya" && git config user.email "pranjalyawarrior@gmail.com"
