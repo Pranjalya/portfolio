@@ -24,3 +24,10 @@ jobs:
         run: |
           git config user.name "Pranjalya" && git config user.email "pranjalyawarrior@gmail.com"
           npm run deploy
+          
+      - name: Dispatch initiating repository event
+        run: |
+          curl -X POST https://api.github.com/repos/Pranjalya/pranjalya.github.io/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.ACCESS_TOKEN }} \
+          --data '{"event_type": "build", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
