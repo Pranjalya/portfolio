@@ -6,6 +6,6 @@ A personal portfolio site built using Vue.js.
 
 You can find the portfolio here : https://pranjalya.github.io/portfolio
 
-![lighthouse](https://github.com/Pranjalya/portfolio/blob/master/tenous_files/lighthouse.png)
+![lighthouse](https://github.com/Pranjalya/portfolio/blob/master/tenous_files/lighthouse_report.png)
 
-Feel free to <img src="https://img.icons8.com/material-sharp/24/000000/star--v2.png"/> and Follow if you like it!
+Feel free to star and follow if you like it!

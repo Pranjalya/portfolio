@@ -94,7 +94,7 @@ export default {
         {
           title: "WebRTC Video Chat",
           id: "1",
-          site_url: "webrtc.kaissa.io",
+          site_url: "https://pranjalya.github.io/cordova-webrtc",
           media_url:
             "https://drive.google.com/uc?id=18nft8nnx_1iiSrbcxIgNaqOztb83nOKI",
           tags: ["project"]
@@ -120,7 +120,7 @@ export default {
         {
           title: "Student Data Centre",
           id: "4",
-          site_url: "https://www.github.com/student-data-centre",
+          site_url: "https://pranjalya.github.io/student-data-centre",
           media_url:
             "https://drive.google.com/uc?id=137WbC_TeBKH6Gig6h17K7yZs70KUVXGn",
           tags: ["project"]
