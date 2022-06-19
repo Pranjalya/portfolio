@@ -16,15 +16,14 @@ jobs:
       matrix:
         node-version: [ 16.15.x ]
 
-    steps:     
+    steps:
       - name: Checkout branch
         uses: actions/checkout@v2
 
       - name: Run deploy script
         run: |
           git config user.name "Pranjalya" && git config user.email "pranjalyawarrior@gmail.com"
-          npm run deploy
-          
+
       - name: Dispatch initiating repository event
         run: |
           curl -X POST https://api.github.com/repos/Pranjalya/pranjalya.github.io/dispatches \
