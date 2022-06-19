@@ -16,6 +16,73 @@
       </h4>
     </div>
     <ul class="timeline overflow-hidden">
+      <li>
+        <div
+          id="lastudio"
+          class="timeline-badge trans-all cursor-pointer"
+          @click="setBadge('lastudio', 1)"
+        >
+          <img
+            class="w-20px h-20px"
+            src="../assets/img/cap-black.svg"
+            alt="Expérience professionnelle"
+          />
+        </div>
+        <div class="timeline-panel">
+          <md-card class="md-accent left" md-with-hover>
+            <md-ripple>
+              <md-card-header>
+                <div class="md-title">
+                  Software Engineer, Backprop Technologies
+                </div>
+                <div class="md-subhead">Remote</div>
+                <div class="md-subhead">October 2020 - June 2021</div>
+              </md-card-header>
+
+              <md-card-content>
+                <div class="content">
+                  Building solutions for optimization problem the field of
+                  Machine Learning, especially geared towards the use of
+                  Reinforcement Learning and creating solutions, along with
+                  scripting and internal tools building.
+                </div>
+              </md-card-content>
+
+              <md-card-expand>
+                <md-card-actions md-alignment="right">
+                  <md-card-expand-trigger>
+                    <md-button aria-label="More">MORE</md-button>
+                  </md-card-expand-trigger>
+                </md-card-actions>
+
+                <md-card-expand-content>
+                  <md-card-content>
+                    <strong>Objectives</strong>
+                    <br />
+                    <div class="content">
+                      <ul style="list-style-type:disc">
+                        <li>
+                          Create synthetic data via Simulation to generate
+                          dataset for training and testing dataset which can be
+                          used for analysis and model building.
+                        </li>
+                        <li>
+                          Build a Reinforcement Learning system and finding a
+                          way to incorporate it with the existing system.
+                        </li>
+                        <li>
+                          Use Python to build internal tools for automation and
+                          API manipulation and scripting.
+                        </li>
+                      </ul>
+                    </div>
+                  </md-card-content>
+                </md-card-expand-content>
+              </md-card-expand>
+            </md-ripple>
+          </md-card>
+        </div>
+      </li>
       <li class="timeline-inverted">
         <div
           id="gfi"
