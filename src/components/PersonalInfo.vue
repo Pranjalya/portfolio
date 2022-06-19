@@ -7,7 +7,8 @@
         <strong>E-mail:</strong>
       </div>
       <div class="email innerformat">
-        pranjalyatiwari10@gmail.com, pranjalya.tiwari@bitdurg.ac.in
+        pranjalyatiwari10@gmail.com, pranjalya.tiwari@bitdurg.ac.in,
+        pranjalya.tiwari@deepsync.co
       </div>
     </div>
     <br />
@@ -23,8 +24,8 @@
         <strong>Tools:</strong>
       </div>
       <div class="innerformat">
-        Tensorflow, Vue.js, ElasticSearch, Cloudant, MongoDB, MySQL, CouchDB,
-        Docker, Scikit-Learn
+        PyTorch, Tensorflow, Vue.js, ElasticSearch, Cloudant, MongoDB, MySQL,
+        CouchDB, Docker, Scikit-Learn, Airflow, AWS, GCP
       </div>
     </div>
     <br />
@@ -34,7 +35,7 @@
       </div>
       <div class="innerformat">
         Data Science, DevOps, Deep Learning, NoSQl, SQL, Full Stack Development,
-        Linux
+        Linux, Scripting
       </div>
     </div>
     <br />
@@ -42,7 +43,7 @@
       <div class="info">
         <strong>Programming Languages:</strong>
       </div>
-      <div class="innerformat">Python, C++, JavaScript, C, Go, Bash</div>
+      <div class="innerformat">Python, Go, Bash, C++, JavaScript, Solidity</div>
     </div>
     <br />
     <div class="formatting">
@@ -50,8 +51,8 @@
         <strong>Areas of Interest:</strong>
       </div>
       <div class="innerformat">
-        Astronomy, Cricket, Tabla, Astrophysics, Cinematoraphy, Cosmology,
-        Poetry, Open Source, Chess
+        Chess, Astronomy, Cricket, Tabla, Astrophysics, Cinematoraphy,
+        Cosmology, Poetry, Open Source
       </div>
     </div>
     <br />
