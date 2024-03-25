@@ -96,7 +96,7 @@ export default {
           id: "1",
           site_url: "https://pranjalya.github.io/cordova-webrtc",
           media_url:
-            "https://drive.google.com/uc?id=18nft8nnx_1iiSrbcxIgNaqOztb83nOKI",
+            "https://drive.google.com/thumbnail?id=18nft8nnx_1iiSrbcxIgNaqOztb83nOKI",
           tags: ["project"]
         },
         {
@@ -105,7 +105,7 @@ export default {
           site_url:
             "https://medium.com/@pranjalyatiwari/what-is-debiasing-and-why-is-it-important-6cad40e8511c",
           media_url:
-            "https://drive.google.com/uc?id=1l-tdbX-mRcZODSzSU8nkrKaYIbDO8Tmf",
+            "https://drive.google.com/thumbnail?id=1l-tdbX-mRcZODSzSU8nkrKaYIbDO8Tmf",
           tags: ["blog"]
         },
         {
@@ -114,7 +114,7 @@ export default {
           site_url:
             "https://medium.com/@pranjalyatiwari/did-google-duplex-really-pass-the-turing-test-ad62fd8286f5",
           media_url:
-            "https://drive.google.com/uc?id=11do6CTVeGt9f9CWAQXleDeMl4RFl8NUo",
+            "https://drive.google.com/thumbnail?id=11do6CTVeGt9f9CWAQXleDeMl4RFl8NUo",
           tags: ["blog"]
         },
         {
@@ -122,7 +122,7 @@ export default {
           id: "4",
           site_url: "https://pranjalya.github.io/student-data-centre",
           media_url:
-            "https://drive.google.com/uc?id=137WbC_TeBKH6Gig6h17K7yZs70KUVXGn",
+            "https://drive.google.com/thumbnail?id=137WbC_TeBKH6Gig6h17K7yZs70KUVXGn",
           tags: ["project"]
         },
         {
@@ -131,7 +131,7 @@ export default {
           site_url:
             "https://medium.com/@pranjalyatiwari/how-does-google-translate-work-86429c915cc2",
           media_url:
-            "https://drive.google.com/uc?id=1HePuTrXNxVA894lNX36UuAjhC-mu507w",
+            "https://drive.google.com/thumbnail?id=1HePuTrXNxVA894lNX36UuAjhC-mu507w",
           tags: ["blog"]
         },
         {
@@ -140,7 +140,7 @@ export default {
           site_url:
             "https://play.google.com/store/apps/details?id=io.kaissa.millennials&hl=en_IN",
           media_url:
-            "https://drive.google.com/uc?id=1SpDi_9jTdQyt_jRhWEY1n5G2XwrUduhy",
+            "https://drive.google.com/thumbnail?id=1SpDi_9jTdQyt_jRhWEY1n5G2XwrUduhy",
           tags: ["project"]
         },
         {
@@ -149,7 +149,7 @@ export default {
           site_url:
             "https://medium.com/@pranjalyatiwari/how-to-download-previous-versions-of-a-kaggle-dataset-9a8d62b78dcc",
           media_url:
-            "https://drive.google.com/uc?id=18v_DQkdu5U5SyuUs0bY85UoPURttdXjB",
+            "https://drive.google.com/thumbnail?id=18v_DQkdu5U5SyuUs0bY85UoPURttdXjB",
           tags: ["blog"]
         },
         {
@@ -158,7 +158,7 @@ export default {
           id: "8",
           site_url: "https://github.com/Pranjalya/LearningInitializations",
           media_url:
-            "https://drive.google.com/uc?id=10KjDqaPWeYqDVeHlL9LJ3VoE3mHIMu4c",
+            "https://drive.google.com/thumbnail?id=10KjDqaPWeYqDVeHlL9LJ3VoE3mHIMu4c",
           tags: ["project"]
         }
       ]
