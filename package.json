@@ -32,13 +32,13 @@
     "whatwg-fetch": "^3.1.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-plugin-pwa": "^4.4.6",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-pwa": "^5.0.8",
     "@vue/cli-plugin-router": "~4.4.0",
-    "@vue/cli-plugin-unit-jest": "~4.4.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.8",
     "@vue/cli-plugin-vuex": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-service": "~5.0.8",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
@@ -48,7 +48,7 @@
     "lint-staged": "^9.5.0",
     "node-sass": "^4.14.1",
     "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^13.2.0",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
