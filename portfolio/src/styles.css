@@ -1,0 +1,78 @@
+/* src/styles.css */
+
+/* Variables */
+:root {
+    --color-primary: #006400;
+    --color-secondary: #217a25;
+    --color-light: #fff;
+    --color-dark: #222;
+    --color-error: #ff2818;
+    --breakpoint-small: 767px;
+    --breakpoint-medium: 992px;
+    --breakpoint-large: 1200px;
+    --text-color: #555;
+  }
+  
+  /* Base Styles */
+  body,
+  html {
+    height: 100%;
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.4;
+    font-weight: normal;
+    color: var(--text-color);
+  }
+  
+  body.loading {
+    overflow: hidden;
+  }
+  
+  section {
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  
+  section h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  a {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--color-dark);
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Animation */
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
+  
+  /* ... Other global styles from the SCSS files ... */

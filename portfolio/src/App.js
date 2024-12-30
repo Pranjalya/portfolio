@@ -1,25 +1,50 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import { PortfolioProvider } from './contexts/PortfolioContext';
+import FrontPage from './components/FrontPage';
+import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const user = {
+    name: 'PRANJALYA TIWARI',
+    description:
+      'Deep Learning, Data Engineering, Full Stack Development, Open Source Contribution',
+  };
+
+  useEffect(() => {
+    document.body.classList.add('loading');
+    // Simulate loading data
+    Promise.all([]).then(() => {
+      setIsLoaded(true);
+      document.body.classList.remove('loading');
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PortfolioProvider>
+      <div className="wrapper">
+        {isLoaded ? (
+          <>
+            <FrontPage user={user} />
+            <AboutMe user={user} />
+            <Experience />
+            <Portfolio />
+            <Contacts />
+            <Footer />
+          </>
+        ) : (
+          <div className="loader wrapper">
+            <div className="spinner-loader"></div>
+          </div>
+        )}
+      </div>
+    </PortfolioProvider>
   );
-}
+};
 
 export default App;
