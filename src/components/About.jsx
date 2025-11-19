@@ -110,7 +110,6 @@ const About = () => {
                                 <strong className="w-32 text-gray-500">E-mail:</strong>
                                 <div className="flex-1">
                                     pranjalyatiwari10@gmail.com<br />
-                                    pranjalya.tiwari@bitdurg.ac.in<br />
                                     pranjalya.tiwari@deepsync.co
                                 </div>
                             </div>
@@ -122,22 +121,22 @@ const About = () => {
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Tools:</strong>
-                                <div className="flex-1">PyTorch, Tensorflow, Vue.js, ElasticSearch, Cloudant, MongoDB, MySQL, CouchDB, Docker, Scikit-Learn, Airflow, AWS, GCP</div>
+                                <div className="flex-1">PyTorch, Tensorflow, Docker, Kubernetes, Airflow, AWS, GCP, ElasticSearch, MongoDB, MySQL</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Technologies:</strong>
-                                <div className="flex-1">Data Science, DevOps, Deep Learning, NoSQL, SQL, Full Stack Development, Linux, Scripting</div>
+                                <div className="flex-1">Large Language Models (LLMs), Computer Vision, NLP, Audio Processing, MLOps, Data Engineering</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Programming:</strong>
-                                <div className="flex-1">Python, Go, Bash, C++, JavaScript, Solidity</div>
+                                <div className="flex-1">Python, Go, Rust, C++, JavaScript, TypeScript, Bash</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Interests:</strong>
-                                <div className="flex-1">Chess, Astronomy, Cricket, Tabla, Astrophysics, Cinematography, Cosmology, Poetry, Open Source</div>
+                                <div className="flex-1">Generative AI, Open Source, Chess, Astronomy, Cosmology, Poetry</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">

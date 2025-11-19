@@ -7,6 +7,27 @@ const Portfolio = () => {
 
     const projects = [
         {
+            id: 101,
+            title: "Tortoise TTS Gradio",
+            image: "/assets/img/120882.webp", // Placeholder
+            link: "https://github.com/Pranjalya/tts-tortoise-gradio",
+            category: "project"
+        },
+        {
+            id: 102,
+            title: "LLM Agent PDF Reader",
+            image: "/assets/img/120882.webp", // Placeholder
+            link: "https://github.com/Pranjalya/llm-agent-pdf-reader",
+            category: "project"
+        },
+        {
+            id: 103,
+            title: "Vue Go GraphQL",
+            image: "/assets/img/120882.webp", // Placeholder
+            link: "https://github.com/Pranjalya/vue-go-graphql",
+            category: "project"
+        },
+        {
             id: 1,
             title: "WebRTC Video Chat",
             image: "https://drive.google.com/thumbnail?id=18nft8nnx_1iiSrbcxIgNaqOztb83nOKI",
@@ -76,7 +97,8 @@ const Portfolio = () => {
         { name: "CouchDB", src: "couchdb-logo1.png" },
         { name: "CircleCI", src: "circleci.png" },
         { name: "GCP", src: "gcp.png" },
-        { name: "Golang", src: "go.png" }
+        { name: "Golang", src: "go.png" },
+        { name: "Rust", src: "go.png" } // Using Go icon as placeholder for Rust if specific icon not available
     ];
 
     const filteredProjects = filter === 'all'

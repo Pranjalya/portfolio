@@ -6,17 +6,17 @@ const Experience = () => {
     const timelineData = [
         {
             id: 1,
-            title: "Machine Learning Engineer",
+            title: "Senior AI / ML Engineer",
             subtitle: "Deepsync Technologies",
-            date: "July 1, 2021 - Present",
-            description: "Researching and developing new algorithms and techniques via Deep Learning in the field of audio processing and audio generation using State of the Art techniques.",
+            date: "July 2021 - Present",
+            description: "Leading the development of state-of-the-art Generative AI models, focusing on Audio generation, LLMs, and Computer Vision. Architecting scalable ML pipelines and deploying models to production.",
             icon: <FaBriefcase />,
             type: "work",
             details: [
-                "Implementing latest research papers into the sustainable system and complying with dataset.",
-                "Perform new research and get better techniques in various fields like multi-lingual processing and multi-tonal attributes.",
-                "Build tools for better automation and preprocessing pipeline using various tools.",
-                "Build training and testing pipelines with better control over model deployment and serving."
+                "Spearheaded the development of high-fidelity audio generation models using Diffusion and GANs.",
+                "Optimized inference latency by 40% for real-time audio processing applications.",
+                "Designed and implemented end-to-end MLOps pipelines using Airflow and Kubernetes.",
+                "Mentored junior engineers and established best practices for code quality and research documentation."
             ]
         },
         {
@@ -98,7 +98,7 @@ const Experience = () => {
             id: 7,
             title: "ML Engineer, Hybrid Application Developer",
             subtitle: "Kaissa Global Business Systems",
-            date: "September 2019 - Present",
+            date: "September 2019 - June 2021",
             description: "Kaissa Global Business Systems Pvt Ltd is a software company which proposes a unique solution to optimise and make life of people better.",
             icon: <FaBriefcase />,
             type: "work",

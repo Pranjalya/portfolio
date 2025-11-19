@@ -39,7 +39,7 @@ const Hero = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    Deep Learning | Data Engineering | Full Stack Development
+                    Senior AI / ML Engineer | LLMs & Computer Vision | Full Stack
                 </motion.p>
 
                 <motion.div
