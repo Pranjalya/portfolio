@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.timeline-container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 0;
+}
+
+.timeline-pointer {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .timeline-container {
+        width: 50%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .timeline-container.left {
+        margin-left: 0;
+        margin-right: auto;
+        padding-right: 40px;
+        text-align: right;
+    }
+
+    .timeline-container.right {
+        margin-left: auto;
+        margin-right: 0;
+        padding-left: 40px;
+        text-align: left;
+    }
+}
