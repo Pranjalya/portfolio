@@ -9,7 +9,7 @@ const Hero = () => {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: `url('/assets/img/120882.webp')`,
+                    backgroundImage: `url('${import.meta.env.BASE_URL}assets/img/120882.webp')`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
@@ -31,7 +31,7 @@ const Hero = () => {
                     animate={{ scale: 1 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                    PRANJALYA TIWARI
+                    Pranjalya Tiwari
                 </motion.h1>
                 <motion.p
                     className="text-xl md:text-2xl text-gray-300 mb-8"
@@ -39,7 +39,7 @@ const Hero = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    AI / ML | Full Stack | LLMs, GenAI, CV, Audio
+                    AI / ML Engineer | Full Stack | LLMs, GenAI, Diffusion | Open Source
                 </motion.p>
 
                 <motion.div

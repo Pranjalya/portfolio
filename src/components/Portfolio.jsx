@@ -9,42 +9,42 @@ const Portfolio = () => {
         {
             id: 1,
             title: "Ghazal / Poem Retrieval System",
-            image: "/assets/img/120882.webp",
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`,
             link: "https://ghazal-search-pranjalya.netlify.app",
             category: "project"
         },
         {
             id: 2,
             title: "Multi-lingual NLP Service",
-            image: "/assets/img/120882.webp",
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`,
             link: "#", // No link provided
             category: "project"
         },
         {
             id: 3,
             title: "Multi-Stage LLM Pipeline",
-            image: "/assets/img/120882.webp",
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`,
             link: "#", // No link provided
             category: "project"
         },
         {
             id: 4,
             title: "AI Image Processing Pipeline",
-            image: "/assets/img/120882.webp", // Placeholder
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`, // Placeholder
             link: "#", // No link provided
             category: "project"
         },
         {
             id: 5,
             title: "TorToiSe TTS Gradio Demo",
-            image: "/assets/img/120882.webp", // Placeholder
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`, // Placeholder
             link: "https://github.com/Pranjalya/tts-tortoise-gradio",
             category: "project"
         },
         {
             id: 6,
             title: "Flow Forecast",
-            image: "/assets/img/120882.webp", // Placeholder
+            image: `${import.meta.env.BASE_URL}assets/img/120882.webp`, // Placeholder
             link: "http://github.com/AIStream-Peelout/flow-forecast",
             category: "project"
         },
@@ -191,7 +191,7 @@ const Portfolio = () => {
                             >
                                 <div className="w-24 h-24 bg-white rounded-full p-4 flex items-center justify-center mb-2">
                                     {/* Assuming images are in public/assets/img/icons/ */}
-                                    <img src={`/assets/img/icons/${tool.src}`} alt={tool.name} className="max-w-full max-h-full object-contain" />
+                                    <img src={`${import.meta.env.BASE_URL}assets/img/icons/${tool.src}`} alt={tool.name} className="max-w-full max-h-full object-contain" />
                                 </div>
                                 <span className="text-gray-400 text-sm">{tool.name}</span>
                             </motion.div>
