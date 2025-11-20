@@ -39,7 +39,7 @@ const Hero = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    Senior AI / ML Engineer | LLMs & Computer Vision | Full Stack
+                    AI / ML | Full Stack | LLMs, GenAI, CV, Audio
                 </motion.p>
 
                 <motion.div
@@ -48,9 +48,9 @@ const Hero = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.8 }}
                 >
-                    <a href="#" className="text-3xl hover:text-blue-400 transition-colors"><FaGithub /></a>
-                    <a href="#" className="text-3xl hover:text-blue-400 transition-colors"><FaLinkedin /></a>
-                    <a href="#" className="text-3xl hover:text-blue-400 transition-colors"><FaTwitter /></a>
+                    <a href="https://github.com/Pranjalya" className="text-3xl hover:text-blue-400 transition-colors"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/pranjalya-tiwari/" className="text-3xl hover:text-blue-400 transition-colors"><FaLinkedin /></a>
+                    <a href="https://twitter.com/PranjalyaQuasar" className="text-3xl hover:text-blue-400 transition-colors"><FaTwitter /></a>
                 </motion.div>
             </motion.div>
 

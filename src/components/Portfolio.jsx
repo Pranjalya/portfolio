@@ -7,81 +7,74 @@ const Portfolio = () => {
 
     const projects = [
         {
-            id: 101,
-            title: "Tortoise TTS Gradio",
+            id: 1,
+            title: "Ghazal / Poem Retrieval System",
+            image: "/assets/img/120882.webp",
+            link: "https://ghazal-search-pranjalya.netlify.app",
+            category: "project"
+        },
+        {
+            id: 2,
+            title: "Multi-lingual NLP Service",
+            image: "/assets/img/120882.webp",
+            link: "#", // No link provided
+            category: "project"
+        },
+        {
+            id: 3,
+            title: "Multi-Stage LLM Pipeline",
+            image: "/assets/img/120882.webp",
+            link: "#", // No link provided
+            category: "project"
+        },
+        {
+            id: 4,
+            title: "AI Image Processing Pipeline",
+            image: "/assets/img/120882.webp", // Placeholder
+            link: "#", // No link provided
+            category: "project"
+        },
+        {
+            id: 5,
+            title: "TorToiSe TTS Gradio Demo",
             image: "/assets/img/120882.webp", // Placeholder
             link: "https://github.com/Pranjalya/tts-tortoise-gradio",
             category: "project"
         },
         {
-            id: 102,
-            title: "LLM Agent PDF Reader",
+            id: 6,
+            title: "Flow Forecast",
             image: "/assets/img/120882.webp", // Placeholder
-            link: "https://github.com/Pranjalya/llm-agent-pdf-reader",
+            link: "http://github.com/AIStream-Peelout/flow-forecast",
             category: "project"
         },
         {
-            id: 103,
-            title: "Vue Go GraphQL",
-            image: "/assets/img/120882.webp", // Placeholder
-            link: "https://github.com/Pranjalya/vue-go-graphql",
-            category: "project"
-        },
-        {
-            id: 1,
-            title: "WebRTC Video Chat",
-            image: "https://drive.google.com/thumbnail?id=18nft8nnx_1iiSrbcxIgNaqOztb83nOKI",
-            link: "https://pranjalya.github.io/cordova-webrtc",
-            category: "project"
-        },
-        {
-            id: 2,
+            id: 101,
             title: "What is Debiasing?",
             image: "https://drive.google.com/thumbnail?id=1l-tdbX-mRcZODSzSU8nkrKaYIbDO8Tmf",
             link: "https://medium.com/@pranjalyatiwari/what-is-debiasing-and-why-is-it-important-6cad40e8511c",
             category: "blog"
         },
         {
-            id: 3,
+            id: 102,
             title: "Google Duplex & Turing Test",
             image: "https://drive.google.com/thumbnail?id=11do6CTVeGt9f9CWAQXleDeMl4RFl8NUo",
             link: "https://medium.com/@pranjalyatiwari/did-google-duplex-really-pass-the-turing-test-ad62fd8286f5",
             category: "blog"
         },
         {
-            id: 4,
-            title: "Student Data Centre",
-            image: "https://drive.google.com/thumbnail?id=137WbC_TeBKH6Gig6h17K7yZs70KUVXGn",
-            link: "https://pranjalya.github.io/student-data-centre",
-            category: "project"
-        },
-        {
-            id: 5,
+            id: 103,
             title: "How Google Translate Works",
             image: "https://drive.google.com/thumbnail?id=1HePuTrXNxVA894lNX36UuAjhC-mu507w",
             link: "https://medium.com/@pranjalyatiwari/how-does-google-translate-work-86429c915cc2",
             category: "blog"
         },
         {
-            id: 6,
-            title: "Millenials App",
-            image: "https://drive.google.com/thumbnail?id=1SpDi_9jTdQyt_jRhWEY1n5G2XwrUduhy",
-            link: "https://play.google.com/store/apps/details?id=io.kaissa.millennials&hl=en_IN",
-            category: "project"
-        },
-        {
-            id: 7,
+            id: 104,
             title: "Kaggle Dataset Versions",
             image: "https://drive.google.com/thumbnail?id=18v_DQkdu5U5SyuUs0bY85UoPURttdXjB",
             link: "https://medium.com/@pranjalyatiwari/how-to-download-previous-versions-of-a-kaggle-dataset-9a8d62b78dcc",
             category: "blog"
-        },
-        {
-            id: 8,
-            title: "RL Weight Initialization",
-            image: "https://drive.google.com/thumbnail?id=10KjDqaPWeYqDVeHlL9LJ3VoE3mHIMu4c",
-            link: "https://github.com/Pranjalya/LearningInitializations",
-            category: "project"
         }
     ];
 
@@ -98,7 +91,7 @@ const Portfolio = () => {
         { name: "CircleCI", src: "circleci.png" },
         { name: "GCP", src: "gcp.png" },
         { name: "Golang", src: "go.png" },
-        { name: "Rust", src: "go.png" } // Using Go icon as placeholder for Rust if specific icon not available
+        { name: "Rust", src: "rust.png" }
     ];
 
     const filteredProjects = filter === 'all'

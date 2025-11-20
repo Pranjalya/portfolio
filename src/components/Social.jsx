@@ -1,12 +1,10 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaMedium, FaStackOverflow, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaMedium, FaStackOverflow, FaInstagram } from 'react-icons/fa';
 
 const Social = () => {
     const socialLinks = [
-        { icon: <FaGithub />, url: "https://github.com/pranjalyaks1213" }, // Replace with actual links
-        { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/pranjalya-tiwari-456a7a179/" },
+        { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/pranjalya-tiwari/" },
         { icon: <FaGithub />, url: "https://www.github.com/Pranjalya" },
-        { icon: <FaFacebook />, url: "https://www.facebook.com/pranjalya.tiwari" },
         { icon: <FaTwitter />, url: "https://twitter.com/PranjalyaQuasar" },
         { icon: <FaMedium />, url: "https://www.medium.com/@pranjalyatiwari" },
         { icon: <FaInstagram />, url: "https://www.instagram.com/pranjalya_kvothe/" },

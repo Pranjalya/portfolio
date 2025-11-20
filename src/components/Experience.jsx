@@ -7,20 +7,33 @@ const Experience = () => {
         {
             id: 1,
             title: "Senior AI / ML Engineer",
-            subtitle: "Deepsync Technologies",
-            date: "July 2021 - Present",
-            description: "Leading the development of state-of-the-art Generative AI models, focusing on Audio generation, LLMs, and Computer Vision. Architecting scalable ML pipelines and deploying models to production.",
+            subtitle: "Ksolves India Ltd.",
+            date: "January 2025 - Present",
+            description: "Leading the development of state-of-the-art Generative AI models and multi-agent orchestrations. Architecting scalable ML pipelines and deploying models to production.",
             icon: <FaBriefcase />,
             type: "work",
             details: [
-                "Spearheaded the development of high-fidelity audio generation models using Diffusion and GANs.",
-                "Optimized inference latency by 40% for real-time audio processing applications.",
-                "Designed and implemented end-to-end MLOps pipelines using Airflow and Kubernetes.",
-                "Mentored junior engineers and established best practices for code quality and research documentation."
+                "Built an Agentic Langgraph and Langchain application for Nokia to help consultants generate customer insights from internal/external sources.",
+                "Modified Langflow for internal use, adding SSO, RBAC, and a productionization system for prototyping AI agents.",
+                "Deployed a production-grade Text-to-Code data analysis system using Langgraph and Chainlit to automate PowerBI report analysis."
             ]
         },
         {
             id: 2,
+            title: "Deep Learning Engineer",
+            subtitle: "Deepsync Technologies",
+            date: "July 2021 - December 2024",
+            description: "Leading the development of state-of-the-art Generative AI models, focusing on Audio generation, LLMs, and Computer Vision. Architecting scalable ML pipelines and deploying models to production.",
+            icon: <FaBriefcase />,
+            type: "work",
+            details: [
+                "Engineered scalable end-to-end dubbing pipelines using Apache Airflow, processing hundreds of concurrent videos.",
+                "Developed interactive model demos with HuggingFace Gradio for stakeholder showcases.",
+                "Reduced infrastructure costs and improved accuracy by migrating to efficient open-source alternatives."
+            ]
+        },
+        {
+            id: 3,
             title: "Software Engineer",
             subtitle: "Backprop Technologies",
             date: "October 2020 - June 2021",
@@ -34,7 +47,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 3,
+            id: 4,
             title: "Data-Driven Astronomy",
             subtitle: "Coursera, University of Sydney",
             date: "June 21, 2020 - August 3, 2020",
@@ -51,7 +64,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 4,
+            id: 5,
             title: "Reinforcement Learning Specialization",
             subtitle: "Coursera, University of Alberta",
             date: "May 25, 2020 - Present",
@@ -66,7 +79,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 5,
+            id: 6,
             title: "CoronaWhy - Data Science Volunteer",
             subtitle: "CoronaWhy",
             date: "Feb 26, 2020 - Present",
@@ -82,7 +95,20 @@ const Experience = () => {
             ]
         },
         {
-            id: 6,
+            id: 7,
+            title: "FlowDB: A new large scale river flow, flash flood, and precipitation dataset",
+            subtitle: "NeurIPS 2020",
+            date: "December 2020",
+            description: "Published a novel hourly river flow and precipitation dataset and a second subset of flash flood events with damage estimates and injury counts.",
+            icon: <FaStar />,
+            type: "achievement",
+            details: [
+                "Presented at NeurIPS 2020.",
+                "Created a large-scale dataset for environmental AI research."
+            ]
+        },
+        {
+            id: 8,
             title: "Finalists - Smart India Hackathon 2020",
             subtitle: "Government of India",
             date: "2020",
@@ -95,7 +121,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 7,
+            id: 9,
             title: "ML Engineer, Hybrid Application Developer",
             subtitle: "Kaissa Global Business Systems",
             date: "September 2019 - June 2021",
@@ -110,7 +136,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 8,
+            id: 10,
             title: "Deep Learning Specialization",
             subtitle: "Coursera, Deeplearning.ai",
             date: "May 2019 - August 2019",
@@ -126,7 +152,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 9,
+            id: 11,
             title: "Stock Market Analysis - Intern",
             subtitle: "Machine Learning Internship",
             date: "July 2019 - August 2019",
@@ -143,7 +169,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 10,
+            id: 12,
             title: "Fundamentals Of Digital Marketing",
             subtitle: "Google",
             date: "February 2019",
@@ -160,7 +186,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 11,
+            id: 13,
             title: "Bachelors of Engineering, CSE",
             subtitle: "Bhilai Institute of Technology, Durg",
             date: "August 2017 - Present",
@@ -178,7 +204,7 @@ const Experience = () => {
             ]
         },
         {
-            id: 12,
+            id: 14,
             title: "Tabla",
             subtitle: "Indira Kala Sangeet Vishwavidyalay",
             date: "",

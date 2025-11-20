@@ -109,8 +109,7 @@ const About = () => {
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">E-mail:</strong>
                                 <div className="flex-1">
-                                    pranjalyatiwari10@gmail.com<br />
-                                    pranjalya.tiwari@deepsync.co
+                                    pranjalyatiwari10@gmail.com
                                 </div>
                             </div>
 
@@ -121,12 +120,12 @@ const About = () => {
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Tools:</strong>
-                                <div className="flex-1">PyTorch, Tensorflow, Docker, Kubernetes, Airflow, AWS, GCP, ElasticSearch, MongoDB, MySQL</div>
+                                <div className="flex-1">PyTorch, Tensorflow, Docker, Kubernetes, Airflow, AWS, GCP, ElasticSearch, MongoDB, MySQL, Redis</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">
                                 <strong className="w-32 text-gray-500">Technologies:</strong>
-                                <div className="flex-1">Large Language Models (LLMs), Computer Vision, NLP, Audio Processing, MLOps, Data Engineering</div>
+                                <div className="flex-1">Langgraph, Langchain, Large Language Models (LLMs), Computer Vision, NLP, Audio Processing, MLOps, Data Engineering</div>
                             </div>
 
                             <div className="flex flex-col sm:flex-row">
